@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="estilo.css" />
+    <title>Semaforo</title>
+  </head>
+  <body>
+    <div class="centrar">
+      <div id="modo"></div>
+    </div>
+
+    <!-- semaforo -->
+
+    <div class="caja-semaforo">
+      <div class="luz-semaforo" id="red"></div>
+      <div class="luz-semaforo" id="yellow"></div>
+      <div class="luz-semaforo" id="green"></div>
+    </div>
+
+    <div class="centrar">
+      <button onclick="cambiarSemaforoBoton()">Cambiar</button> <br />
+      <br />
+      <button onclick="modoSemaforo()">Modo</button> <br />
+    </div>
+
+    <script src="semaforo.js"></script>
+  </body>
+</html>

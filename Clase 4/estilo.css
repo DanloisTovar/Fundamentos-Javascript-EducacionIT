@@ -1,0 +1,24 @@
+.caja-semaforo {
+  width: 70px;
+  background-color: black;
+  border-radius: 40px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.luz-semaforo {
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.centrar {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
